@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+  box-shadow: 0 0 8px 0 #8b8b8b;
+  display: flex;
+  justify-content: center;
+}
+
+.prod {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(70, 69, 69);
+  margin: 5px;
+  padding: 10px 0;
+}
+.prod:hover {
+  color: rgb(70, 69, 69);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.card-colm {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 50px 40px 0px 40px;
+  margin-top: 100px;
+  gap: 20px;
+  height: 60%;
+}
+.card-border,
+.product-list {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  -webkit-box-shadow: -11.5px 11.5px 23.5px -3.5px #c5c5c5;
+  -moz-box-shadow: -11.5px 11.5px 23.5px -3.5px #c5c5c5;
+  box-shadow: -11.5px 11.5px 23.5px -3.5px #c5c5c5;
+}
+
+.card-header {
+  display: flex;
+  color: rgb(48, 48, 48);
+  font-size: 30px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-header,h4{
+  padding-top: 8px;
+}
+
+.card-body {
+  margin-top: 5px;
+  height: 100%;
+}
+.form-group {
+  padding: 10px;
+}
+.form-control,
+.butn {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(180, 175, 175);
+  font-size: 15px;
+  font-weight: bold;
+  width: 93%;
+}
+
+.butn {
+  background-color: rgb(69, 180, 124);
+  color: white;
+  border-radius: 8px;
+  width: 100%;
+}
+.butn:hover {
+  cursor: pointer;
+  background-color: rgb(38, 102, 70);
+}
+
+.table-loader {
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+th {
+  border-bottom: 1px solid grey;
+}
+
+.table-loader,
+td {
+  padding: 20px 0;
+}
+
+.btn-danger {
+  font-size: 14px;
+  text-decoration: none;
+  background-color: rgb(247, 44, 44);
+  padding: 8px 30px;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-danger:hover {
+  cursor: pointer;
+  background: rgb(180, 8, 8);
+  color: white;
+}
+
+.alert{position: relative; background-color: orange;}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="header"><a class="prod" href="/">Product App</a></nav>
+      
+    <aside id="App" class="container">
+        <div class="card-colm">
+      <div class="card-border">
+        <div class="card-header"> <img src="/shopping-bag.svg" alt="bag"> <h4>Add Product</h4></div>
+        <form id="product-form" class="card-body">
+          <div class="form-group">
+            <input type="text" id="name" class="form-control" placeholder="Product Name"/>
+          </div>
+          <div class="form-group">
+            <input type="number" id="price" step="0.01" class="form-control" placeholder="Product Price"/>
+          </div>
+          <div class="form-group">
+            <input type="number" id="year" class="form-control" placeholder="Year Product"  min="2000" max="2030"/>
+          </div>
+          <div class="form-group">
+          <input type="submit" value="Save" class=" butn">
+          </div>
+        </form>
+      </div>
+      <div class="product-list" id="product-list" >
+        <div class="card-header"><img src="box-seam.svg" alt="box"> <h4>Products</h4></div>
+        <table class="table table-hover table-loader">
+            <thead>
+                <tr>
+                  <th scope="col">Product Name</th>
+                  <th scope="col">Product Price</th>
+                  <th scope="col">Year Product</th>
+                  <th scope="col">Delete Product</th>
+                </tr>
+                
+              </thead>
+        </table>
+      </div>
+        </div>
+
+      
+    </aside>
+   
+
+    <script src="App.js"></script>
+  </body>
+</html>
